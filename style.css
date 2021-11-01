@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'ONE-Mobile-POP';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1
+{
+  font-size: 80px;
+  
+  font-family: 'ONE-Mobile-POP';
+  display: inline;
+
+}
+
+h2{
+  font-size: 20px;
+  
+  margin: 50px;
+  font-family: 'ONE-Mobile-POP';
+}
+
+
+header{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  
+  
+}
+
+
+hr{
+  width: 50px;
+  border-top: 4px solid #2b68a4;
+}
+
+footer{
+  background-color: #F2F2F2;
+}
+
+.title{
+  display: inline;
+  margin-right: 20px;
+}
+
+.introduce{
+  text-align: center;
+  line-height: 150%;
+  padding: 10px;
+}
+
+.desc{
+  margin-bottom: 50px;
+
+}
+
+.aboutUS{
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'ONE-Mobile-POP';
+}
+
+
+
+.companyImage{
+  width: 150px;
+  margin: 30px;
+  margin-right: 50px;
+}
+
+.paulText{
+  text-align: center;
+  margin-right: 50px;
+}
+.wenivText{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.jejubaseText{
+  text-align: center;
+  margin-top: 51px;
+  margin-right: 50px;
+}
+
+.imageSection{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tagbtn{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  margin-left: 200px;
+  margin-bottom: 0;
+}
+
+.companyinfo{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.corp{
+  margin: 50px;
+  margin-right: 250px;
+  font-weight: 600;
+}
+
+.sns{
+  margin: 80px;
+  margin-right: 190px;
+  min-width: 150px;
+}
+
+.menu{
+  display: flex;
+  margin: 50px;
+}
+
+.item{
+  margin-right: 50px;
+  font-weight: 600;
+  min-width: 100px;
+}
+
+dl{
+  display: flex;
+  margin: 50px;
+}
+dt{
+  margin-right: 5px;
+  font-weight: 600;
+  color: #4F4F4F;
+}
+
+dd{
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: 1px solid gray;
+}
+
+.line{
+  width: 1050px;
+  border-top: 1px solid gray;
+}
+
+.hiddenText{
+  display: none;
+}
+
+.addressJeju{
+  margin-right: 5px;
+  padding-right: 5px;
+  border: none;
+}
+
+.boldText{
+  font-weight: 600;
+  color: #4F4F4F;
+}
+
+.meunitme{
+  text-decoration: none;
+  color: black;
+
+}
+
+.corpbtn{
+  text-decoration: none;
+  color: black;
+}
+
+.snsImage{
+  margin-right: 15px;
+}
+
+.iconHome
+{
+  margin: 20px;
+  width: 40px;
+}
