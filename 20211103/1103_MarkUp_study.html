@@ -5,254 +5,269 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>20211103MarkUp</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-
-    <section>
-        <h1>정글 시네마 영화 목록</h1>
+    <main>
+        <h1>정글 시네마 영화 목록 페이지</h1>
         
         <header>
             
             <h2>정글 시네마 영화 목록</h2>
-            
-            <ul>
-                <li>현재상영영화</li>
-                <li>개봉예정영화</li>
-                <li>박스오피스</li>
+
+            <hr>
+
+            <ul class="menu">
+                <li class="menuItem"><a href="#">현재상영영화</a></li>
+                <li class="menuItem"><a href="#">개봉예정영화</a></li>
+                <li class="menuItem"><a href="#">박스오피스</a></li>
             </ul>
-      
+    
         </header>
-
         <section>
-            <h3>영화 정보 노출 및 예매정보</h3>
 
+            <h3>영화 정보 노출 및 예매정보</h3>
             <article>
+                
                 <figure>
-                    <img src="" alt="위니브 월드 : 새로운 시대">
+                    <img class="poster" src="./img/포스터_위니브월드.png" alt="위니브 월드 : 새로운 시대">
                     
                     <figcaption>
                         <strong>위니브 월드 : 새로운 시대</strong>
-                        <dl>
-                            <dt>개요</dt>
-                            <dd>판타지</dd>
-        
-                            <dt>평점</dt>
-                            <dd>9.05</dd>
-                            
-                            <dt>개봉</dt>
-                            <dd>2021.03.27</dd>
-                            
-                            <dt>출연</dt>
-                            <dd>라이캣, 소울곰, 개리씨</dd>
-                        </dl>
+                            <dl>
+                                <dt>개요</dt>
+                                <dd class="summary">판타지</dd>
+                                
+                                <dt>평점</dt>
+                                <dd><img class="starimg" src="./img/별점이미지.png" alt="별점"> 9.05</dd>
+
+                                <dt class="open">개봉</dt>
+                                <dd class="day">2021.03.27</dd>
+                                
+                                <dt class="appearance">출연</dt>
+                                <dd class="actor">라이캣, 소울곰, 개리씨</dd>
+                            </dl>
                     </figcaption>
+
+                        <ul class="ticketing">
+                            <li class="ticketingItem"><a href="#">예매하기</a></li>
+                            <li class="trailer"><a href="#">예고편</a></li>
+                        </ul>
+                
                 </figure>
                 
-                <ul>
-                    <li>예매하기</li>
-                    <li>예고편</li>
-                </ul>
+                
             </article>
-    
+            
             <article>
                 <figure>
-                    <img src="" alt="눈떠보니 코딩테스트 전...">
+                    <img class="poster" src="./img/포스터_눈떠보니자바.png" alt="눈떠보니 코딩테스트 전...">
                     
                     <figcaption>
                         <strong>눈떠보니 코딩테스트 전...</strong>
                         <dl>
                             <dt>개요</dt>
-                            <dd>스릴러</dd>
-        
+                            <dd class="summary">스릴러</dd>
+                            
                             <dt>평점</dt>
-                            <dd>8.25</dd>
+                            <dd><img class="starimg" src="./img/별점이미지.png" alt="별점">8.25</dd>
                             
-                            <dt>개봉</dt>
-                            <dd>2021.04.01</dd>
+                            <dt class="open">개봉</dt>
+                            <dd class="day">2021.04.01</dd>
                             
-                            <dt>출연</dt>
-                            <dd>자바독, 개리씨, 빙키</dd>
+                            <dt class="appearance">출연</dt>
+                            <dd class="actor">자바독, 개리씨, 빙키</dd>
                         </dl>
                     </figcaption>
+                    <ul class="ticketing">
+                        <li class="ticketingItem">예매하기</li>
+                        <li class="trailer">예고편</li>
+                    </ul>
                 </figure>
                 
-                <ul>
-                    <li>예매하기</li>
-                    <li>예고편</li>
-                </ul>
             </article>
+             
     
             <article>
                 <figure>
-                    <img src="" alt="파이썬 부트캠프">
+                    <img class="poster" src="./img/포스터_부트캠프.jpg" alt="파이썬 부트캠프">
                     
                     <figcaption>
                         <strong>파이썬 부트캠프</strong>
                         <dl>
                             <dt>개요</dt>
-                            <dd>드라마</dd>
+                            <dd class="summary">드라마</dd>
         
                             <dt>평점</dt>
-                            <dd>8.77</dd>
+                            <dd><img class="starimg" src="./img/별점이미지.png" alt="별점">8.77</dd>
                             
-                            <dt>개봉</dt>
-                            <dd>2021.04.12</dd>
+                            <dt class="open">개봉</dt>
+                            <dd class="day">2021.04.12</dd>
                             
-                            <dt>출연</dt>
-                            <dd>캣, 파이, 썬, 뮤라</dd>
+                            <dt class="appearance">출연</dt>
+                            <dd class="actor">캣, 파이, 썬, 뮤라</dd>
                         </dl>
                     </figcaption>
+                    <ul class="ticketing">
+                        <li class="ticketingItem">예매하기</li>
+                        <li class="trailer">예고편</li>
+                    </ul>
                 </figure>
                 
-                <ul>
-                    <li>예매하기</li>
-                    <li>예고편</li>
-                </ul>
             </article>
     
             <article>
                 <figure>
-                    <img src="" alt="파이큐티의 사랑">
+                    <img class="poster" src="./img/포스터_파이큐티.png" alt="파이큐티의 사랑">
                     
                     <figcaption>
                         <strong>파이큐티의 사랑</strong>
                         <dl>
                             <dt>개요</dt>
-                            <dd>로맨스</dd>
+                            <dd class="summary">로맨스</dd>
         
                             <dt>평점</dt>
-                            <dd>8.81</dd>
+                            <dd><img class="starimg" src="./img/별점이미지.png" alt="별점">8.81</dd>
                             
-                            <dt>개봉</dt>
-                            <dd>2021.04.08</dd>
+                            <dt class="open">개봉</dt>
+                            <dd class="day">2021.04.08</dd>
                             
-                            <dt>출연</dt>
-                            <dd>파이썬, 큐티</dd>
+                            <dt class="appearance">출연</dt>
+                            <dd class="actor">파이썬, 큐티</dd>
                         </dl>
                     </figcaption>
+                    <ul class="ticketing">
+                        <li class="ticketingItem">예매하기</li>
+                        <li class="trailer">예고편</li>
+                    </ul>
                 </figure>
                 
-                <ul>
-                    <li>예매하기</li>
-                    <li>예고편</li>
-                </ul>
             </article>
     
             <article>
                 <figure>
-                    <img src="" alt="NGINX의 춤">
+                    <img class="poster" src="./img/포스터_앤진액스.png" alt="NGINX의 춤">
                     
                     <figcaption>
                         <strong>NGINX의 춤</strong>
                         <dl>
                             <dt>개요</dt>
-                            <dd>드라마</dd>
+                            <dd class="summary">드라마</dd>
         
                             <dt>평점</dt>
-                            <dd>9.88</dd>
+                            <dd><img class="starimg" src="./img/별점이미지.png" alt="별점">9.88</dd>
                             
-                            <dt>개봉</dt>
-                            <dd>2021.04.15</dd>
+                            <dt class="open">개봉</dt>
+                            <dd class="day">2021.04.15</dd>
                             
-                            <dt>출연</dt>
-                            <dd>NGINX, 노션</dd>
+                            <dt class="appearance">출연</dt>
+                            <dd class="actor">NGINX, 노션</dd>
                         </dl>
                     </figcaption>
+                    <ul class="ticketing">
+                        <li class="ticketingItem">예매하기</li>
+                        <li class="trailer">예고편</li>
+                    </ul>
                 </figure>
                 
-                <ul>
-                    <li>예매하기</li>
-                    <li>예고편</li>
-                </ul>
             </article>
     
             <article>
                 <figure>
-                    <img src="" alt="어쩌다 밋업">
+                    <img class="poster" src="./img/포스터_어쩌다밋업.png" alt="어쩌다 밋업">
                     
                     <figcaption>
                         <strong>어쩌다 밋업</strong>
                         <dl>
                             <dt>개요</dt>
-                            <dd>드라마</dd>
+                            <dd class="summary">드라마</dd>
         
                             <dt>평점</dt>
-                            <dd>9.25</dd>
+                            <dd><img class="starimg" src="./img/별점이미지.png" alt="별점">9.25</dd>
                             
-                            <dt>개봉</dt>
-                            <dd>2021.04.17</dd>
+                            <dt class="open">개봉</dt>
+                            <dd class="day">2021.04.17</dd>
                             
-                            <dt>출연</dt>
-                            <dd>라이캣, 자바독, 소울곰</dd>
+                            <dt class="appearance">출연</dt>
+                            <dd class="actor">라이캣, 자바독, 소울곰</dd>
                         </dl>
                     </figcaption>
+                    <ul class="ticketing">
+                        <li class="ticketingItem">예매하기</li>
+                        <li class="trailer">예고편</li>
+                    </ul>
                 </figure>
                 
-                <ul>
-                    <li>예매하기</li>
-                    <li>예고편</li>
-                </ul>
             </article>
     
             <article>
                 <figure>
-                    <img src="" alt="파이게임 어드벤처">
+                    <img class="poster" src="./img/포스터_파이게임.jpg" alt="파이게임 어드벤처">
                     
                     <figcaption>
                         <strong>파이게임 어드벤처</strong>
                         <dl>
                             <dt>개요</dt>
-                            <dd>판타지액션</dd>
+                            <dd class="summary_long">판타지액션</dd>
         
                             <dt>평점</dt>
-                            <dd>8.56</dd>
+                            <dd><img class="starimg" src="./img/별점이미지.png" alt="별점">8.56</dd>
                             
-                            <dt>개봉</dt>
-                            <dd>2021.04.05</dd>
+                            <dt class="open">개봉</dt>
+                            <dd class="day">2021.04.05</dd>
                             
-                            <dt>출연</dt>
-                            <dd>개리씨, 파이썬</dd>
+                            <dt class="appearance">출연</dt>
+                            <dd class="actor">개리씨, 파이썬</dd>
                         </dl>
                     </figcaption>
+                    <ul class="ticketing">
+                        <li class="ticketingItem">예매하기</li>
+                        <li class="trailer">예고편</li>
+                    </ul>
                 </figure>
                 
-                <ul>
-                    <li>예매하기</li>
-                    <li>예고편</li>
-                </ul>
             </article>
     
             <article>
                 <figure>
-                    <img src="" alt="MBTI는 내 운명">
+                    <img class="poster" src="./img/포스터_MBIT.png" alt="MBTI는 내 운명">
                     
                     <figcaption>
                         <strong>MBTI는 내 운명</strong>
                         <dl>
                             <dt>개요</dt>
-                            <dd>로맨스</dd>
+                            <dd class="summary">로맨스</dd>
         
                             <dt>평점</dt>
-                            <dd>9.02</dd>
+                            <dd><img class="starimg" src="./img/별점이미지.png" alt="별점">9.02</dd>
                             
-                            <dt>개봉</dt>
-                            <dd>2021.04.12</dd>
+                            <dt class="open">개봉</dt>
+                            <dd class="day">2021.04.12</dd>
                             
-                            <dt>출연</dt>
-                            <dd>라이캣, 개리씨, 자바독</dd>
+                            <dt class="appearance">출연</dt>
+                            <dd class="actor">라이캣, 개리씨, 자바독</dd>
                         </dl>
                     </figcaption>
+                    
+                    <ul class="ticketing">
+                        <li class="ticketingItem">예매하기</li>
+                        <li class="trailer">예고편</li>
+                    </ul>
                 </figure>
-                
-                <ul>
-                    <li>예매하기</li>
-                    <li>예고편</li>
-                </ul>
             </article>
     
         </section>
-    </section>
+    </main>
 
     <footer>
 

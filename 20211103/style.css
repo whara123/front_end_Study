@@ -1,0 +1,154 @@
+h1,h3{
+    display: none;
+}
+main{
+    position: relative;
+    
+    width: 1060px;
+    height: 1170px;
+    border: 1px solid gray;
+    background-color: #F2F2F2;
+    margin: 165px 430px 348px;
+    border-radius: 10px;
+}
+
+section{
+    position: absolute;
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 1003px;
+    height: 962px;
+    margin:177px 28px 29px 31px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    padding:2px 0 26px 27px;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    width: 650px;
+    top:41px;
+    left: 205px;
+    
+}
+hr{
+    margin-top: 37px;
+    margin-bottom:28px;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menuItem{
+    margin-right: 60px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+figure{
+    position: relative;
+    box-sizing: border-box;
+    border:1px solid black;
+    width:220px;
+    height:441px;
+    margin-right: 23px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 24px;
+
+}
+
+figcaption{
+    
+    margin:12px 20px 18px;
+    
+}
+
+
+.poster{
+    
+    width: 180px;
+    height: 250px;
+    margin: 19px 20px 11px;
+    
+}
+
+strong{
+    font-weight: 900;
+}
+
+dl{
+    margin: 12px 0 18px;
+    font-size: 13px;
+}
+dt{
+    float: left;
+    color: #828282;
+    margin-right: 5px;
+    height: 19px;
+}
+dd{
+    float: left;
+    height: 19px;
+    
+}
+.summary{
+    margin-right:42px;
+}
+.summary_long{
+    margin-right:18px;
+}
+.open{
+    margin-top: 5px;
+}
+.day{
+    margin-top: 5px;
+    width: 80%;
+    text-align: left;
+}
+.appearance{
+    margin-top: 5px;
+}
+.actor{
+    margin-top: 5px;
+}
+
+.ticketing{
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ticketingItem{
+    width: 50%;
+    box-sizing: border-box;
+    padding-top:10px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.trailer{
+    width: 50%;
+    box-sizing: border-box;
+    padding-top:10px;
+    border-top: 1px solid black;
+}
+.starimg{
+   margin-right: 2px;
+}
