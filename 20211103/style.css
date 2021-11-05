@@ -6,7 +6,7 @@ main{
     
     width: 1060px;
     height: 1170px;
-    border: 1px solid gray;
+    border: 1px solid #BDBDBD;
     background-color: #F2F2F2;
     margin: 165px 430px 348px;
     border-radius: 10px;
@@ -20,11 +20,14 @@ section{
     width: 1003px;
     height: 962px;
     margin:177px 28px 29px 31px;
-    border: 1px solid gray;
+    border: 1px solid #BDBDBD;
     border-radius: 10px;
     background-color: #FFFFFF;
     box-sizing: border-box;
     padding:2px 0 26px 27px;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
 }
 
 header{
@@ -60,20 +63,22 @@ a{
 figure{
     position: relative;
     box-sizing: border-box;
-    border:1px solid black;
+    border:1px solid #BDBDBD;
     width:220px;
     height:441px;
     margin-right: 23px;
     text-align: center;
     border-radius: 10px;
-    font-family: 'Noto Sans KR', sans-serif;
     margin-top: 24px;
+    overflow: hidden;
+    box-shadow: 1px 1px 9px #BDBDBD;
 
 }
 
 figcaption{
     
     margin:12px 20px 18px;
+    
     
 }
 
@@ -103,7 +108,6 @@ dt{
 dd{
     float: left;
     height: 19px;
-    
 }
 .summary{
     margin-right:42px;
@@ -133,22 +137,103 @@ dd{
     bottom: 0;
     display: flex;
     justify-content: space-between;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    
     
 }
 .ticketingItem{
     width: 50%;
     box-sizing: border-box;
     padding-top:10px;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-top: 1px solid #BDBDBD;
+    border-right: 1px solid #BDBDBD;
+    background-color: #F2F2F2;
 }
 
 .trailer{
     width: 50%;
     box-sizing: border-box;
     padding-top:10px;
-    border-top: 1px solid black;
+    border-top: 1px solid #BDBDBD;
+    background-color: #F2F2F2;
 }
+
 .starimg{
    margin-right: 2px;
 }
+
+.playbtn{
+    width: 13.33px;
+    height: 13.33px;
+    margin-right: 5px;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+footer{
+    height: 213px;
+    background-color: #F2F2F2;
+    padding: 52px 365px 0 366px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.companyName{
+    display: inline-block;
+    width: 217px;
+    font-size:22px;
+    font-weight: 700;
+}
+
+.snslist{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -22px;
+}
+
+.snsIcon{
+    width: 22px;
+    height: 17.94px;
+    margin-right: 25px;
+}
+
+.companyInfo{
+    display: flex;
+    padding-top: 3px;
+    font-weight: 700;
+
+}
+
+.companyNameInfo{
+    display: none;
+}
+
+.companyInfoData{
+    padding-top: 3px;
+    padding-right: 7px;
+    border-right: 1px solid #BDBDBD;
+
+}
+
+.companyDataTable{
+    padding-top: 3px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+address
+{
+    padding-top: 3px;
+    padding-right: 7px;
+}
+
+.smalltext{
+    font-size: 14px;
+    font-weight: 900;
+    float: right;
+    margin-top: -38px;
+
+}
+
